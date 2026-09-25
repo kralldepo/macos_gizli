@@ -1,0 +1,7 @@
+# graft'ın yerel çizge önbelleği ve arama ayarı — yeniden üretilebilir, depoya girmez.
+/graft/
+/.ignore
+
+# Derleme çıktısı (build.sh üretir) ve macOS artıkları
+/build/
+.DS_Store

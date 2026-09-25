@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 464" width="1280" height="464" role="img" aria-label="Gizli Dosyalar men&#252; &#231;ubu&#287;u men&#252;s&#252;">
+<rect width="1280" height="464" rx="20" fill="#17181a"/>
+<rect x="40" y="36" width="1200" height="44" rx="10" fill="#1d1e21" stroke="#32353a"/>
+<g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#9aa0a9">
+<text x="64" y="63.0" font-weight="700" fill="#e7e9ec">Finder</text>
+<text x="136" y="63.0">Dosya</text>
+<text x="194" y="63.0">D&#252;zen</text>
+<text x="256" y="63.0">G&#246;r&#252;nt&#252;</text>
+<text x="332" y="63.0">Git</text>
+<text x="370" y="63.0">Pencere</text>
+<text x="444" y="63.0">Yard&#305;m</text>
+</g>
+<text x="1216" y="63.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#e7e9ec">13:32</text>
+<rect x="1118" y="42.0" width="44" height="32" rx="8" fill="#26282c" stroke="#32353a"/>
+<g transform="translate(1129.2,47.2) scale(0.9)"><g fill="none" stroke="#e7e9ec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12C5 6.5 8.5 5 12 5s7 1.5 10 7c-3 5.5-6.5 7-10 7S5 17.5 2 12Z"/><circle cx="12" cy="12" r="3.2"/></g></g>
+<g fill="none" stroke="#9aa0a9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="1088" cy="58.0" r="7.5"/>
+<rect x="1049" y="50.5" width="15" height="15" rx="4"/>
+<rect x="1005" y="51.5" width="24" height="13" rx="3.5"/><path d="M1031.5 55.5v5"/>
+</g>
+<rect x="1008" y="54.5" width="13" height="7" rx="1.5" fill="#9aa0a9"/>
+<rect x="836" y="88" width="400" height="170" rx="10" fill="#26282c" stroke="#32353a"/>
+<rect x="842" y="95" width="388" height="46" rx="6" fill="#4a90e2"/>
+<g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18">
+<text x="858" y="124.0" font-weight="700" fill="#e7e9ec">&#10003;</text>
+<text x="882" y="124.0" font-weight="500" fill="#e7e9ec">Gizli Dosyalar&#305; G&#246;ster</text>
+</g>
+<path d="M852 150H1220" stroke="#32353a" stroke-width="1.2"/>
+<g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#e7e9ec">
+<text x="882" y="188.0">Giri&#351;te Ba&#351;lat</text>
+<text x="882" y="234.0">&#199;&#305;k&#305;&#351;</text>
+<text x="1214" y="234.0" text-anchor="end" fill="#9aa0a9">&#8984;Q</text>
+</g>
+<path transform="translate(1140,111)" d="M0 0V18L4.6 13.8L7.8 20.8L10.6 19.6L7.5 12.8H13.2Z" fill="#17181a" stroke="#e7e9ec" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40" y="112" width="664" height="312" rx="14" fill="#1d1e21" stroke="#32353a"/>
+<text x="68" y="156" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#e7e9ec">Simge durumu</text>
+<path d="M68 178H676" stroke="#32353a"/>
+<rect x="68" y="200.0" width="60" height="42" rx="9" fill="#26282c" stroke="#32353a"/>
+<g transform="translate(84.8,207.8) scale(1.1)"><g fill="none" stroke="#e7e9ec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12C5 6.5 8.5 5 12 5s7 1.5 10 7c-3 5.5-6.5 7-10 7S5 17.5 2 12Z"/><circle cx="12" cy="12" r="3.2"/></g></g>
+<text x="148" y="227.5" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#9aa0a9"><tspan font-weight="700" fill="#e7e9ec">G&#246;r&#252;n&#252;yor</tspan> &#8212; gizli dosyalar Finder'da g&#246;r&#252;n&#252;r</text>
+<rect x="68" y="274.0" width="60" height="42" rx="9" fill="#26282c" stroke="#32353a"/>
+<g transform="translate(84.8,281.8) scale(1.1)"><g fill="none" stroke="#e7e9ec" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12C5 6.5 8.5 5 12 5s7 1.5 10 7c-3 5.5-6.5 7-10 7S5 17.5 2 12Z"/><circle cx="12" cy="12" r="3.2"/></g><path d="M4 3L20 21" stroke="#26282c" stroke-width="4.6" stroke-linecap="round"/><path d="M4 3L20 21" stroke="#e7e9ec" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="148" y="301.5" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#9aa0a9"><tspan font-weight="700" fill="#e7e9ec">Gizli</tspan> &#8212; varsay&#305;lan macOS davran&#305;&#351;&#305;</text>
+<path d="M68 348H676" stroke="#32353a"/>
+<rect x="68" y="371" width="60" height="30" rx="7" fill="#26282c" stroke="#32353a"/>
+<text x="98" y="391.5" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#e7e9ec">&#8984;&#8679;.</text>
+<text x="148" y="391.5" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9aa0a9">Finder'&#305;n kendi k&#305;sayolu ayar&#305; kaydetmez, yaln&#305;zca o oturumu etkiler</text>
+<circle cx="870" cy="258" r="3.5" fill="#cf6f50"/>
+<path d="M870 262V345.5" stroke="#9aa0a9" stroke-width="1.2"/>
+<g transform="translate(858,349.5)" fill="none" stroke="#cf6f50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 9A8 8 0 1 0 20 14"/><path d="M20.5 4V9.5H15"/></g>
+<g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<text x="896" y="367.5" font-size="17" font-weight="600" fill="#e7e9ec">Men&#252; her a&#231;&#305;l&#305;&#351;ta ayar&#305; yeniden okur</text>
+<text x="896" y="391.5" font-size="15" fill="#9aa0a9">Terminal'den yap&#305;lan de&#287;i&#351;iklikler de yans&#305;r</text>
+</g>
+</svg>
