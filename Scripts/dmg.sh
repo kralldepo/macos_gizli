@@ -46,9 +46,15 @@ hdiutil create -volname "$AD" -srcfolder "$SAHNE" -fs HFS+ \
     -format UDRW -size "${BOYUT_MB}m" -ov "$HAM" >/dev/null
 
 echo "→ Pencere düzeni ayarlanıyor…"
+BAG="/Volumes/$AD"
+# Aynı adlı bir disk zaten bağlıysa (ör. test için açılıp çıkarılmamış eski DMG) yeni imaj
+# "$AD 1" adıyla bağlanır ve düzen sessizce yanlış (salt okunur) diske uygulanır.
+if [ -d "$BAG" ]; then
+    echo "✗ \"$BAG\" zaten bağlı. Önce çıkarın: hdiutil detach \"$BAG\"" >&2
+    rm -f "$HAM"; rm -rf "$SAHNE"; exit 1
+fi
 AYGIT=$(hdiutil attach -readwrite -noverify -noautoopen "$HAM" \
         | grep '^/dev/' | head -1 | awk '{print $1}') || true
-BAG="/Volumes/$AD"
 
 arac SetFile -a C "$BAG" 2>/dev/null || true          # birim simgesini etkinleştir
 
@@ -73,6 +79,11 @@ tell application "Finder"
   end tell
 end tell
 OSA
+
+# Finder düzen sırasında .VolumeIcon.icns'i silebiliyor; birim simgesi için geri koy.
+if [ -f "$ICNS" ] && [ ! -f "$BAG/.VolumeIcon.icns" ]; then
+    cp "$ICNS" "$BAG/.VolumeIcon.icns" 2>/dev/null || true
+fi
 
 sync
 arac SetFile -a C "$BAG" 2>/dev/null || true
