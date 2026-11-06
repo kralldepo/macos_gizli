@@ -33,9 +33,13 @@ iconutil -c icns "$IKONSET" -o "$APP/Contents/Resources/AppIcon.icns"
 echo "→ İmzalanıyor (ad-hoc)…"
 codesign --force --sign - "$APP"
 
+echo "→ DMG paketleniyor…"
+bash Scripts/dmg.sh
+
 echo "→ İndirme arşivi hazırlanıyor…"
 ditto -c -k --keepParent "$APP" "build/GizliDosyalar.zip"
 
 rm -rf "$GECICI"
-echo "✓ Hazır: $APP"
-echo "✓ Arşiv: build/GizliDosyalar.zip"
+echo "✓ Uygulama: $APP"
+echo "✓ DMG:      build/GizliDosyalar.dmg"
+echo "✓ Arşiv:    build/GizliDosyalar.zip"

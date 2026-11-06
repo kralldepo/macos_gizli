@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kralldepo/macos_gizli/releases/latest/download/GizliDosyalar.zip"><b>⬇ GizliDosyalar.zip dosyasını indir</b></a>
+  <a href="https://github.com/kralldepo/macos_gizli/releases/latest/download/GizliDosyalar.dmg"><b>⬇ GizliDosyalar.dmg dosyasını indir</b></a>
 </p>
 
 ## İçindekiler
@@ -44,8 +44,8 @@ macOS, adı nokta ile başlayan dosyaları (`.git`, `.env`, `.zshrc` …) Finder
 
 ## Kurulum
 
-1. [**GizliDosyalar.zip**](https://github.com/kralldepo/macos_gizli/releases/latest/download/GizliDosyalar.zip) dosyasını indirip çift tıklayarak açın.
-2. **Gizli Dosyalar.app**'i **Uygulamalar** klasörüne sürükleyin.
+1. [**GizliDosyalar.dmg**](https://github.com/kralldepo/macos_gizli/releases/latest/download/GizliDosyalar.dmg) dosyasını indirip çift tıklayarak açın.
+2. Açılan pencerede **Gizli Dosyalar** simgesini **Uygulamalar** klasörüne sürükleyin.
 3. Uygulamayı açın. Menü çubuğunda göz simgesi belirir.
 
 > [!IMPORTANT]
@@ -102,15 +102,18 @@ open "build/Gizli Dosyalar.app"
 2. Uygulamayı Apple Silicon ve Intel için ayrı ayrı derleyip tek bir universal dosyada birleştirir.
 3. Uygulama ikonunu çizer.
 4. Paketi ad-hoc olarak imzalar.
-5. İndirilebilir `build/GizliDosyalar.zip` arşivini hazırlar.
+5. Sürükle-bırak kurulumlu `build/GizliDosyalar.dmg` paketini üretir (disk simgesi uygulamanın ikonudur).
+6. İndirilebilir `build/GizliDosyalar.zip` arşivini de hazırlar.
 
 ## Depo haritası
 
 ```text
 Sources/GizliDosyalar.swift   uygulamanın tamamı: menü, Finder ayarı, girişte başlatma
 Scripts/ikon.swift            uygulama ikonunu çizer (SF Symbols kullanmadan)
+Scripts/dmg-arkaplan.swift    DMG penceresinin arka planını çizer
+Scripts/dmg.sh                .app'i sürükle-bırak kurulumlu .dmg'ye paketler
 Info.plist                    paket bilgileri: Dock'ta görünmeyen menü çubuğu uygulaması, macOS 14+
-build.sh                      derler, ikonu üretir, imzalar, zip'ler
+build.sh                      derler, ikonu üretir, imzalar, DMG ve zip paketler
 docs/images/                  bu README'nin görselleri
 ```
 
